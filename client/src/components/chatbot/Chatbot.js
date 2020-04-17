@@ -100,6 +100,7 @@ class Chatbot extends Component {
 
     componentDidMount() {
         this.df_event_query('Welcome');
+        this.setState({showBot: false});
 
     }
 
