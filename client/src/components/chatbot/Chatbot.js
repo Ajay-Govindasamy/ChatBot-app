@@ -195,10 +195,10 @@ class Chatbot extends Component {
     render() { //ChatBot Layout, Design
         if (this.state.showBot) {
         return (
-            <div style={{minHeight: 500, maxHeight: 470, width: 400, position: 'absolute', bottom: 0, right: 0, border: '1px solid lightgrey', borderRadius: 15}}>
+            <div className="container" style={{minHeight: 500, maxHeight: 470, width: 400, position: 'absolute', bottom: 0, right: 0, border: '1px solid lightgrey', borderRadius: 15}}>
                 <nav style={{backgroundColor: '#00c853', borderRadius: 15}}>
                     <div className="nav-wrapper">
-                        <a className="brand-logo center">ChatBot</a>
+                        <a href="#" className="brand-logo center">ChatBot</a>
                         <ul id="nav-mobile" className="right ">
                             <li><a href="/" onClick={this.hide}>Hide</a></li>
                         </ul>
@@ -218,7 +218,7 @@ class Chatbot extends Component {
         );
       } else {
             return (
-                <div style={{minHeight: 40, maxHeight: 500, width: 400, position: 'absolute', bottom: 0, right: 0, border: '1px solid lightgrey', borderRadius: 15}}>
+                <div className="container" style={{minHeight: 40, maxHeight: 500, width: 400, position: 'absolute', bottom: 0, right: 0, border: '1px solid lightgrey', borderRadius: 15}}>
                     <nav style={{backgroundColor: '#00c853', borderRadius: 15}}>
                         <div className="nav-wrapper">
                             <a className="brand-logo center">ChatBot</a>
